@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bg-color: #000;
+  --primary-text-color: #fff;
+  --common-padding: 0 8vw;
+}
+
+/* body {
+  font-family: "League Spartan", sans-serif;
+  /* min-height: 100vh;
+  overflow-y: auto;
+  border: 1px solid #ccc; 
+}*/
+
+
+a {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+svg {
+  margin-top: 60px;
+  height: 12vh;
+}
+
+header {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--common-padding);
+}
+
+header .options {
+  cursor: pointer;
+}
+
+main {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+main h1 {
+  font-family: League Gothic;
+}
+
+main p {
+  font-family: League Spartan;
+}
+
+.options-container {
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: -10vh;
+  left: 0;
+  transform: translateX(100vw);
+  transition: transform 0.5s ease-in-out;
+}
+
+.active {
+  transform: translateX(0);
+}
+
+.main-section {
+  padding: 16vh 25vw;
+}
+
+.section1 h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+  font-size: 25px;
+}
+
+.section1 p {
+  margin-top: 15px;
+  font-family: Roboto;
+}
+
+.skills p {
+  display: inline-block;
+  margin-right: 45px;
+  vertical-align: middle;
+  font-family: Roboto;
+  margin-top: 15px;
+}
+
+.section2 {
+  padding: var(--common-padding);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.box1 {
+  background-color: rgb(10, 10, 10);
+  transition: transform 0.4s ease-in-out, border 0.4s ease-in-out;
+}
+
+.box1 img {
+  width: 26vw;
+  height: 54vh;
+}
+
+.box1 h4 {
+  color: white;
+  margin-top: 28px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.box1:hover {
+  transform: scale(1.02);
+  border: 3px solid rgb(3, 121, 239);
+}
+
+.btn {
+display: flex;
+  gap: 25px; /* Space between each anchor tag */
+  justify-content: center;
+  margin-top: 60px;
+
+}
+
+.btn a {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: rgb(203, 197, 197);
+  border: 1px solid rgb(203, 197, 197);
+  color: #000;
+}
+
+.btn a:hover {
+  background-color: rgb(146, 141, 141);
+  transform: scale(1.02);
+}
+
+footer {
+  background-color: #000;
+  height: 55vh;
+  margin-top: 100px;
+  width: 100%;
+  padding: var(--common-padding);
+}
+.footer-left{
+ display: flex;
+ gap: 25px; /* Space between each anchor tag */
+}
+.footer-left a{
+    margin-top: 80px;
+}
+
+.footer-left svg{
+    margin-left: auto;
+    
+}
+
+
+.footer-middle p{
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 15px;
+   
+}
+
+
+
+/* Project CSS Start */
+.section {
+  padding: var(--common-padding);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.box2 {
+  background-color: rgb(10, 10, 10);
+  transition: transform 0.4s ease-in-out, border 0.4s ease-in-out;
+}
+
+.box2 img {
+  width: 26vw;
+  height: 54vh;
+}
+
+.box2 h4 {
+  color: white;
+  margin-top: 28px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.box2:hover {
+  transform: scale(1.02);
+  border: 3px solid rgb(3, 121, 239);
+}
+
+.btn1 {
+    margin-top: 70px;
+    margin-left: 550px;
+    gap: 27px;
+}
+
+.btn1 a {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: rgb(203, 197, 197);
+  border: 1px solid rgb(203, 197, 197);
+  color: #000;
+}
+
+.btn1 a:hover {
+  background-color: rgb(146, 141, 141);
+  transform: scale(1.02);
+}
+
+/* contact css start */
+.form-container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 100%;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
