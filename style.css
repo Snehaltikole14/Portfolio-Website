@@ -490,20 +490,17 @@ textarea {
  }
 
  .info svg{
- 
- display: inline-block;
+  display: inline-block;
  width: 65px; /* Set width for images */
  height: 200px;
  margin: -1px;
-  /* margin-top: 100px;
-  margin-right: 100px;
-  height: 20vh;
-  width: 20vw; */
- 
- }
+}
 
-  h1 {
-    font-size: 20px;
+  main h1 {
+    font-size: 50px;
+  }
+  main p{
+    font-size: 15px;
   }
 
   .btn2 {
@@ -531,13 +528,29 @@ textarea {
   .footer-middle {
     flex-direction: column;
     gap: 10px;
-    margin-left: -10px;
+    margin-left: -3px;
+  }
+
+ .skills p{
+  display: inline-block;
+        height: 54px;
+        width: 84px;
+        margin: 17px;
+        margin-top: 24px;
+        margin-bottom: -39px;
+ }
+  .btn{
+     align-items: center;
+  }
+  .btn a{
+    width: 40vw;
+   
   }
 
   .footer-left {
     flex-direction: row;
     gap: 8px;
-    margin-left: -20px;
+    margin-left: -3px;
   }
 
   .svg-img {
