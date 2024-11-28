@@ -346,11 +346,7 @@ textarea {
   :root {
     --common-padding: 0 5vw;
   }
-
-
- 
-
-  main {
+main {
     padding: 20px;
   }
 
@@ -491,9 +487,9 @@ textarea {
 
  .info svg{
   display: inline-block;
- width: 65px; /* Set width for images */
+ width: 64px; /* Set width for images */
  height: 200px;
- margin: -1px;
+ margin: -2px;
 }
 
   main h1 {
