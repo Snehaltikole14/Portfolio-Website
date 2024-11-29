@@ -18,6 +18,9 @@
   margin-left: 1100px;
   margin-top: 60px;
 }
+.menu a {
+  background-color: #fff;
+}
 
 .rotate p {
   transform: rotate(-90deg);
@@ -27,7 +30,7 @@
   margin-top: 160px;
   margin-bottom: 142px;
   margin-left: 200px;
-  font-family:"FontsNinja-Aeonik", Arial, sans-serif ;
+  font-family: "FontsNinja-Aeonik", Arial, sans-serif;
 }
 
 .menu2 a {
@@ -43,25 +46,20 @@
   margin-bottom: -155px;
 }
 
-.info svg{
+.info svg {
   height: 4vh;
   width: 20vh;
   margin-left: -50px;
   margin-top: 19px;
   margin-right: -24px;
 }
-.info{
+.info {
   margin-left: 790px;
   margin-top: 103px;
   font-family: "FontsNinja-Aeonik", Arial, sans-serif;
 }
 
 /* YOUR NAME */
-
-
-
-
-
 
 svg {
   margin-top: 40px;
@@ -106,7 +104,7 @@ main h1 {
   color: #ffffff;
 }
 
-main p{
+main p {
   font-family: "'Impact', sans-serif";
   font-size: 20px;
 }
@@ -346,7 +344,7 @@ textarea {
   :root {
     --common-padding: 0 5vw;
   }
-main {
+  main {
     padding: 20px;
   }
 
@@ -459,43 +457,43 @@ main {
     --common-padding: 0 3vw;
   }
 
-   .menu svg{
+  .menu svg {
     margin-right: 100px;
     margin-bottom: 100px;
     height: 20vh;
     width: 20vw;
   }
 
-  .menu2 h1{
+  .menu2 h1 {
     font-size: 200px;
     margin-bottom: 60px;
     margin-top: 100px;
- }
+  }
 
- .rotate p{
-  font-size: 100px;
-  margin-left: 40px;
-  margin-top: 580px;
-  margin-bottom: -552px;
- }
+  .rotate p {
+    font-size: 100px;
+    margin-left: 40px;
+    margin-top: 580px;
+    margin-bottom: -552px;
+  }
 
- .info{
- font-size: 60px;
- margin-left: 300px;
- margin-top:300px ;
- }
+  .info {
+    font-size: 60px;
+    margin-left: 300px;
+    margin-top: 300px;
+  }
 
- .info svg{
-  display: inline-block;
- width: 64px; /* Set width for images */
- height: 200px;
- margin: -2px;
-}
+  .info svg {
+    display: inline-block;
+    width: 64px; /* Set width for images */
+    height: 200px;
+    margin: -2px;
+  }
 
   main h1 {
     font-size: 50px;
   }
-  main p{
+  main p {
     font-size: 15px;
   }
 
@@ -527,20 +525,19 @@ main {
     margin-left: -3px;
   }
 
- .skills p{
-  display: inline-block;
-        height: 54px;
-        width: 84px;
-        margin: 17px;
-        margin-top: 24px;
-        margin-bottom: -39px;
- }
-  .btn{
-     align-items: center;
+  .skills p {
+    display: inline-block;
+    height: 54px;
+    width: 84px;
+    margin: 17px;
+    margin-top: 24px;
+    margin-bottom: -39px;
   }
-  .btn a{
+  .btn {
+    align-items: center;
+  }
+  .btn a {
     width: 40vw;
-   
   }
 
   .footer-left {
